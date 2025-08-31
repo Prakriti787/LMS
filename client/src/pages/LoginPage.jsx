@@ -92,7 +92,7 @@ export default function LoginPage() {
         </form>
 
         <p className="text-sm text-gray-500 text-center mt-6">
-          Use the credentials given by Admin in Postman
+          Use the credentials given by Admin in Postman For borrower john4@example.com password: 123456 for librarian lk@gmail.com password: 123456
         </p>
       </div>
     </div>
