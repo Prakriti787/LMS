@@ -15,7 +15,7 @@ export default function LoginPage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:8000/api/auth/login", {
+      const res = await axios.post("https://lms-5-ellk.onrender.com/api/auth/login", {
         email,
         password,
       });
@@ -92,7 +92,7 @@ export default function LoginPage() {
         </form>
 
         <p className="text-sm text-gray-500 text-center mt-6">
-          Use the credentials given by Admin in Postman For borrower john4@example.com password: 123456 for librarian lk@gmail.com password: 123456
+          Use the credentials given by Admin in Postman For borrower john4@example.com password: 123456 for librarian lk@gmail.com password: 12345
         </p>
       </div>
     </div>
